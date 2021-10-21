@@ -1,0 +1,15 @@
+.wrapper {
+    margin: 200px;
+}
+
+.sedans {
+    background-color: rgb(250, 169, 18);
+}
+
+.suvs {
+    background-color: rgb(46, 102, 105);
+}
+
+.luxary {
+    background-color: rgb(57, 125, 84);
+}
