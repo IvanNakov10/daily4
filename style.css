@@ -51,3 +51,58 @@ p {
     margin-top: 8em;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 500px) {
+    .wrapper {
+        margin: 50px 25px;
+    }
+
+    .sedans,
+    .luxary,
+    .suvs {
+        height: 400px;
+        color: #ffffffde;
+    }
+
+    img,
+    p {
+        margin-left: 1em;
+    }
+
+    h1 {
+        margin-left: 0.53em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .sedans {
+        background-color: rgb(241, 167, 28);
+        border-radius: 10px 10px 0 0;
+
+    }
+
+    .suvs {
+        background-color: rgb(46, 102, 105);
+    }
+
+    .luxary {
+        background-color: rgb(57, 125, 84);
+        border-radius: 0 0 10px 10px;
+
+    }
+
+    .button {
+        border-radius: 50px;
+        background-color: white;
+        border: none;
+        width: 150px;
+        height: 40px;
+        color: rgb(0, 0, 0);
+        margin-left: 1em;
+        font-weight: 400;
+        margin-top: 1em;
+    }
+
+}
