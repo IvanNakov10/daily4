@@ -1,9 +1,32 @@
 .wrapper {
-    margin: 200px;
+    margin: 100px 100px 100px 250px;
+}
+
+.sedans,
+.luxary,
+.suvs {
+    height: 500px;
+    color: #ffffffde;
+    padding-top: 50px;
+}
+
+img,
+p {
+    margin-left: 1.25em;
+}
+
+h1 {
+    margin-left: 0.53em;
+}
+
+p {
+    font-size: 1.2em;
 }
 
 .sedans {
-    background-color: rgb(250, 169, 18);
+    background-color: rgb(241, 167, 28);
+    border-radius: 10px 0 0 10px;
+
 }
 
 .suvs {
@@ -12,4 +35,19 @@
 
 .luxary {
     background-color: rgb(57, 125, 84);
+    border-radius: 0 10px 10px 0;
+
+}
+
+.button {
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    margin-left: 1.25em;
+    text-align: center;
+    margin-top: 8em;
+    font-weight: 400;
 }
